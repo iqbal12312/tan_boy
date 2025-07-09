@@ -1,0 +1,238 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+}
+.container-hiro{
+background-image: url(../image/image/hero.png);
+height: 100vh;
+background-repeat:no-repeat ;
+background-size:cover ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-attachment: fixed;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.container-info-panel{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container-info-panel{
+    margin-top: 50px;
+    text-align: center;
+}
+.judul-inpo-panel   {
+    font-size: 20px;
+    font-weight: bold;
+}
+.inpo-panel{
+    font-size: 14px;
+}
+.inpo-panel,  .fab,.fas{
+     font-size: 40px;
+     color: salmon;
+     margin-bottom: 20px;
+}
+.container-paket-kelas{
+    background-color: azure;
+    margin-top: 50px;
+}
+.header h2  {
+  padding-top: 50px;
+  text-align: center;
+}
+.header hr{
+    width: 20%;
+    margin: auto;
+    border: solid 2px salmon;
+    margin-top: 5px;
+}
+.container-card-flex{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.card-item{
+    width: 400px;
+    background-color: azure;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px -10px;
+    border-radius: 10px;
+}
+.card-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-item p{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-item button{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid ;
+    font-size: 16px;
+    color: teal;
+}
+.card-item button:hover{
+   background-color: salmon;
+   color: azure;
+}
+.container-showcase{
+    margin: 50px;
+    
+}
+.showcase-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  padding-bottom: 40px;
+    flex-wrap:wrap;
+    
+}
+.showcase-items{
+    width: 500px;
+}
+.showcase-items img{
+    width: 100%;
+}
+.showcase-items p{
+    margin-top: 20px;
+    line-height: 28px;
+}
+.showcase-items button{
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid ;
+    font-size: 16px;
+    color: teal;
+}
+.showcase-items button:hover{
+    background-color: salmon;
+}
+.container-galery{
+    margin-top: 50px;
+    background-color: azure;
+}
+.container-galery h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.container-galery hr{
+    width: 20px;
+    margin: auto;
+    border: solid 2px;
+    margin-top:5px ;
+}
+.galery-flex{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.galery-items{
+    width: 400px;
+} 
+.galery-items img{
+    width: 100%;
+    margin-top: 30px;
+}
+.galery-items img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container-testimony{
+  margin-top: 50px;
+  width: 100%;
+}
+.testimony-flex{
+    display: flex;
+    margin-top: 50px;
+}
+.container-testimoni    {
+    margin-top: 50px;
+    width: 100%;
+}.testimoni-flex{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimoni-items{
+    width: 300px;
+    background-color: azure;
+    box-shadow: 0px 0px 20px -10px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.testimoni-items img{
+    width: 30%;
+    border-radius:50%;
+    margin-bottom: 10px;
+}
+.testimoni-items q{
+    font-size: 14px;
+    margin-top: 50px;
+}
+.container-footer{
+    margin-top: 50px;
+    background-color: teal;
+}
+.footer-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footer-items-logo{
+    width: 400px;
+}
+.footer-items-logo img{
+    width: 100px;
+    border-radius: 50%;
+}
+.footer-items-text{
+    width: 600px;
+    text-align: right;
+}
+.footer-items-text p{
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-items-text .fab{
+    color: wheat;
+    font-size: 20px;
+    margin-top: 20px;
+}
+@media  (min-width: 900px) {
+ .showcase-flex{
+    flex-wrap: nowrap;
+ }
+}
